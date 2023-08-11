@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main
- * put
+ * main- Entry point
+ *
+ * puts- Display strings to standard output
  *
  * Return: Always 0 (Success)
  */
