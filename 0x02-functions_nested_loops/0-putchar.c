@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_putchar - prins _putchar to std
+ * main - prins _putchar to std
  *
  * Return: on success 0.
  */
