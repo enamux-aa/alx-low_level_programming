@@ -6,7 +6,7 @@
  * Return: on success 0.
  */
 
-int print_putchar(void)
+int main(void)
 {
 	char c[] =  "_putchar";
 	int i;
@@ -15,5 +15,7 @@ int print_putchar(void)
 	{
 		_putchar(c[i]);
 	}
+	_putchar('\n');
+
 	return (0);
 }
