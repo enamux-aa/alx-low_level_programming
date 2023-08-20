@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_putchar - prins _putchar to std
  *
- * Return: on success 0
+ * Return: on success 0.
  */
 
 int print_putchar(void)
@@ -13,8 +13,7 @@ int print_putchar(void)
 
 	for (i = 0; c[i] != '\0'; i++)
 	{
-	_putchar(c[i]);
+		_putchar(c[i]);
 	}
 	return (0);
 }
-
